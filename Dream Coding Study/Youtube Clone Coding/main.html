@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/42764c1962.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!--Video Player-->
+    <section class="player">
+        <video controls src="video/video.mp4"></video>
+    </section>
+    
+    <div class="infoAndUpNext">
+        <!-- Video Info -->
+        <section class="info">
+            <!-- Meta Data -->
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#BeginAgain</li>
+                    <li>#Season2</li>
+                    <li>#jtbc</li>
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title clamp">
+                        비긴어게인시즌2_(2018년03월23일방송)_NonDRM_[HD] - 과거 시즌 다시보기 
+                        | 시즌 2 시작 전 요약하기 | 시즌2: 김윤아, 이선규 출연 | 포루투갈 - 포르투
+                        | 자우림이 다 나와줬으면 좋겠다...
+                    </span>
+                    <button class="moreBtn clicked"><i class="fas fa-caret-down"></i></button>
+                </div>
+                <span class="views">
+                    1M vies 1 month ago
+                </span>
+            </div>
+
+            <!-- Actions -->
+            <ul class="actions">
+                <li>
+                    <button><i class="active fas fa-thumbs-up"></i>1K</button>
+                </li>
+                <li>
+                    <button><i class="active fas fa-thumbs-down"></i>0</button>
+                </li>
+                <li>
+                    <button><i class="active fas fa-share"></i>Share</button>
+                </li>
+                <li>
+                    <button><i class="active fas fa-plus"></i>Save</button>
+                </li>
+                <li>
+                    <button><i class="active fas fa-flag"></i>Report</button>
+                </li>
+            </ul>
+
+            <!-- Channer Description-->
+            <div class="channel">
+                <div class="metadata">
+                    <img src="image/avatar.png" alt="">
+                    <div class="info">
+                        <span class="name">Jay</span>
+                        <span class="subscribers">1M subscribers</span>
+                    </div>
+                </div>
+                <button class="subscribe">subscribe</button>
+            </div>
+        </section>
+        
+        <!-- Up Next -->
+        <section class="upNext">
+            <span class="title">Up next</span>
+            <ul>
+                <li class="item">
+                    <div class="img"><img src="image/1.jfif" alt=""></div>
+                    <div class="info">
+                        <span class="title">
+                            아무 얘기나 이것저것 써보자. 랄랄라 html 재밌다. 프론트엔드 더 깊이 있게
+                            배워보고 싶다 아하하하하 나는 java가 좋다. 그치만 C도 좋다. 근데 왠지 모르게
+                            파이썬은 손이 안간다 하하하하하
+                        </span>
+                        <span class="name">Jay</span>
+                        <span class="views">5K</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="image/2.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">
+                            아무 얘기나 이것저것 써보자. 랄랄라 html 재밌다. 프론트엔드 더 깊이 있게
+                            배워보고 싶다 아하하하하 나는 java가 좋다. 그치만 C도 좋다. 근데 왠지 모르게
+                            파이썬은 손이 안간다 하하하하하
+                        </span>
+                        <span class="name">Jay</span>
+                        <span class="views">5K</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="image/3.png" alt=""></div>
+                    <div class="info">
+                        <span class="title">
+                            아무 얘기나 이것저것 써보자. 랄랄라 html 재밌다. 프론트엔드 더 깊이 있게
+                            배워보고 싶다 아하하하하 나는 java가 좋다. 그치만 C도 좋다. 근데 왠지 모르게
+                            파이썬은 손이 안간다 하하하하하
+                        </span>
+                        <span class="name">Jay</span>
+                        <span class="views">5K</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+            </ul>
+        </section>
+    </div>
+    
+</body>
+</html>
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <scrip src="https://kit.fontawesome.com/42764c1962.js" crossorigin="anonymous"></scrip>
+    <script src="https://kit.fontawesome.com/42764c1962.js" crossorigin="anonymous"></scrip>
+
+    <title>Youtube Clone</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#" class="navbar_logo">
+            <i class="fab fa-youtube"></i>
+            Youtube
+        </a>
+
+        <ul class="navbar_icons">
+            <li><a href="#"><i class="fas fa-search"></i></a></li>
+            <li><a href="#"><i class="fas fa-ellipsis-v"></i></a></li>
+        </ul>
+    </nav>
+
+    <iframe class="main_video" width="560" height="315" src="https://www.youtube.com/embed/67stn7Pu7s4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <div class="content">
+        <div class="vid_info">
+            <div class="main_vid_tag">
+                <li><a href="">#DreamCoding</a></li>
+                <li><a href="">#DreamCoders</a></li>
+                <li><a href="">#Ellie</a></li>
+            </div>
+            <div class="main_vid_title">
+                <div class="title_text">
+                    Clone Coding: Youtube Mobile 유튜브 모바일 웹사이트 따라 만들기! 프론트엔드 개발자 입문편: HTML, CSS, Javascript 드림코딩과 함께하는 프론트엔트 실전 입문편
+                </div>
+                <a href="#" class="title_more">
+                    <i class="fas fa-caret-down"></i>
+                </a>
+            </div>
+        
+            <div class="main_view_info">
+                1M views 1 month ago
+            </div>
+        
+            <ul class="main_icons">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-thumbs-up"></i>
+                    </a>
+                    1K
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-thumbs-down"></i>
+                    </a>
+                    0
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-share"></i>
+                    </a>
+                    Share
+                </li>
+                <li>
+                    <a href="#">
+                    <i class="fas fa-plus"></i>
+                    </a>
+                    Save
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-flag"></i>
+                    </a>
+                    Report
+                </li>
+            </ul>
+        
+            <ul class="main_user">
+                <li class="user_info">
+                    <i class="fas fa-user-circle fa-3x"></i>
+                    <ul>
+                        <li>드림코딩 by 엘리</li>
+                        <li style="color:grey">1M subsribers</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        SUBSCRIBE
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <ul class="video_recommend">
+            <li style="color:grey">Up next</li>
+            <li>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YWIDoMLYtzA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a href="">
+                    <ul class="vid_info">
+                        <li>
+                            [불렛저널 설명서] 제1장 : 키 || [Bullet Journal Directions] Chapter 1 : Key
+                        </li>
+                        <li style="color:grey">
+                            도르미 DORMI
+                        </li>
+                        <li style="color:grey">
+                            조회수 9.3만회 * 10개월 전
+                        </li>
+                    </ul>
+                </a>
+            </li>
+            <li>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/h30E6iYYLbE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a href="">
+                    <ul class="vid_info">
+                        <li>
+                            라벨지 귤 스티커 만들기 | 불렛저널 꾸미기 || Making Tangerine Sticker | Decorating Bullet Journal [ENG Sub] 
+                        </li>
+                        <li style="color:grey">
+                            도르미 DORMI
+                        </li>
+                        <li style="color:grey">
+                            조회수 3.9천회 * 5개월 전
+                        </li>
+                    </ul>
+                </a>
+            </li>
+    
+            <li>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/h30E6iYYLbE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a href="">
+                    <ul class="vid_info">
+                        <li>
+                            라벨지 귤 스티커 만들기 | 불렛저널 꾸미기 || Making Tangerine Sticker | Decorating Bullet Journal [ENG Sub] 
+                        </li>
+                        <li style="color:grey">
+                            도르미 DORMI
+                        </li>
+                        <li style="color:grey">
+                            조회수 3.9천회 * 5개월 전
+                        </li>
+                    </ul>
+                </a>
+            </li>
+    
+            <li>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/h30E6iYYLbE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a href="">
+                    <ul class="vid_info">
+                        <li>
+                            라벨지 귤 스티커 만들기 | 불렛저널 꾸미기 || Making Tangerine Sticker | Decorating Bullet Journal [ENG Sub] 
+                        </li>
+                        <li style="color:grey">
+                            도르미 DORMI
+                        </li>
+                        <li style="color:grey">
+                            조회수 3.9천회 * 5개월 전
+                        </li>
+                    </ul>
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+</body>
+</html>
+-->

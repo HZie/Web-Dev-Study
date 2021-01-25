@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #263343;
+  padding: 8px 12px;
+}
+
+.navbar_logo {
+  font-size: 24px;
+  color: white;
+}
+
+.navbar_logo i {
+  color: #b56576;
+}
+
+.navbar_menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.navbar_menu li {
+  padding: 8px 12px;
+}
+
+.navbar_menu li:hover {
+  background-color: #eaac8b;
+  border-radius: 10px;
+}
+
+.navbar_icons {
+  list-style: none;
+  color: white;
+  display: flex;
+}
+
+.navbar_icons li {
+  padding: 8px 12px;
+}
+
+.navbar_toggle {
+  position: absolute;
+  right: 32px;
+  font-size: 24px;
+  color: #eaac8b;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+  }
+
+  .navbar_menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar_menu li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar_icons {
+    display: none;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+
+  .navbar_toggle {
+    display: block;
+  }
+
+  .navbar_menu.active,
+  .navbar_icons.active {
+    display: flex;
+  }
+}
+
+/*
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #141535;
+  color: white;
+  padding: 30px;
+  margin: 0px;
+}
+
+div {
+  align-self: center;
+}
+
+.menu_icon {
+  display: none;
+}
+
+.menus {
+  display: flex;
+  flex-direction: row;
+}
+
+ul#menu_item {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+}
+
+ul#share {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+}
+
+a {
+  margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .menu_icon {
+    display: block;
+  }
+
+  .menus {
+    display: none;
+    flex-direction: column;
+  }
+
+  ul#menu_item {
+    flex-direction: column;
+  }
+
+  ul#share {
+    flex-direction: column;
+  }
+}
+*/
